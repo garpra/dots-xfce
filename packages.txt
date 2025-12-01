@@ -37,3 +37,4 @@ alacritty
 starship
 micro
 pavucontrol
+stow
