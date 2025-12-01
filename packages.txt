@@ -34,3 +34,6 @@ eza
 zoxide
 fastfetch
 alacritty
+starship
+micro
+pavucontrol
