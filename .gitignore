@@ -1,0 +1,40 @@
+# Certificates, Keys, and Private Env Files
+*.key
+*.pem
+*.crt
+*.env
+*.envrc
+secrets*/
+
+# Cache, Logs, and Swap Files
+.cache/
+**/*.log
+**/*.swp
+**/*.swo
+**/*~
+**/*.bak
+
+# IDE / Editor Configuration Files
+.vscode/
+.idea/
+*.code-workspace
+
+# fish Shell (Ignore everything except config.fish)
+.config/fish/**
+!.config/fish/
+!.config/fish/config.fish
+
+# Micro Text Editor (runtime state)
+.config/micro/backups/
+.config/micro/buffers/
+
+# XFCE Runtime Dumps
+# These files contain user-specific icon layout and GTK accelerator dumps
+.config/xfce4/desktop/icons.screen0.yaml
+.config/xfce4/desktop/accels.scm
+.config/Thunar/accels.scm
+.config/gtk-3.0/bookmarks
+
+# Misc Runtime / Lock Files
+*.lock
+*.pid
