@@ -30,3 +30,6 @@ yt-dlp
 xorg-xrandr
 ffmpeg
 fish
+eza
+zoxide
+fastfetch
