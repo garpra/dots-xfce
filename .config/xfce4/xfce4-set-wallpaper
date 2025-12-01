@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+wallpaper="$(realpath "$1")"
+
+mime_type=$(file --mime-type -b "$wallpaper")
+[[ "$mime_type" == image/* ]] || exit 1
+
+properties=$(xfconf-query -c xfce4-desktop -p /backdrop -l |
+    grep -e "screen.*/monitor.*/image-path$" -e "screen.*/monitor.*/last-image$")
+
+for prop in $properties; do
+    xfconf-query -c xfce4-desktop -p "$prop" -s "$wallpaper"
+done
