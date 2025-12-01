@@ -25,3 +25,5 @@ lightdm-gtk-greeter-settings
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 xdg-user-dirs
+mpv
+yt-dlp
