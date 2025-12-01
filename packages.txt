@@ -27,3 +27,5 @@ xdg-desktop-portal-gtk
 xdg-user-dirs
 mpv
 yt-dlp
+xorg-xrandr
+ffmpeg
