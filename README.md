@@ -4,7 +4,7 @@
 
 ## 📸 Preview
 
-![desktop](https://github.com/gilang-arya/assets-repo/blob/main/dotfiles/xfce4.png?raw=true)
+![desktop](https://raw.githubusercontent.com/garpra/assets-repo/main/screenshots/xfce4/1.png)
 
 ## 🔧 Stack
 
